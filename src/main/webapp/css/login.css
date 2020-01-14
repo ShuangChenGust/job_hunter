@@ -1,22 +1,28 @@
 body {
     background-image: url("images/login/loginBac.jpg");;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+		text-align: center;
 }
 
+
+
+
+
+
 #login_frame {
-    width: 400px;
+    width: 500px;
     height: 260px;
     padding: 13px;
 
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     margin-left: -200px;
     margin-top: -200px;
 
     background-color: rgba(240, 255, 255, 0.5);
-
+    vertical-align:middle
     border-radius: 10px;
     text-align: center;
 }
