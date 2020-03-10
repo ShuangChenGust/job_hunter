@@ -1,0 +1,107 @@
+
+body {
+    width:130%;
+    height:130%;
+    font-family:"Microsoft YaHei","微软雅黑";
+    background-image: url('images/winter.jpg');
+    background-size: 130%;
+    background-repeat:no-repeat;
+}
+
+
+#img {
+	z-index:-1;
+	filter: alpha(opacity = 50);/*设置透明度，针对 IE8 以及更早的版本。IE9, Firefox, Chrome, Opera 和 Safari 使用属性 opacity 来设定透明度。opacity 属性能够设置的值从 0.0 到 1.0。值越小，越透明。*/
+	position:absolute;/*这里要注意一下，需要设置成 absolute，绝对定位。绝对定位使元素的位置与文档流无关，因此不占据空间*/
+	width:100%;
+	height:100%;
+}
+
+
+#login_frame {
+    width: 500px;
+    height: 260px;
+    padding: 13px;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+
+    background-color: rgba(240, 255, 255, 0.5);
+    vertical-align:middle
+    border-radius: 30px;
+    text-align: center;
+}
+
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#image_logo {
+    margin-top: 22px;
+}
+
+.label_input {
+    font-size: 50px;
+    font-family: 宋体;
+
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    color: white;
+    background-color: #3CD8FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.text_field {
+    width: 4008px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+#btn_login {
+    font-size: 50px;
+    font-family: Microsoft YaHei;
+
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+
+    float: left;
+}
+
+#forget_pwd {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+
+}
+
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#login_control {
+    padding: 0 28px;
+}
+————————————————
+版权声明：本文为CSDN博主「黑子Kuroko」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/fifteen718/article/details/50836046
